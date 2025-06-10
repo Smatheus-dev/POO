@@ -4,6 +4,7 @@ public class Kalango extends Personagem {
     public void mover() {
         // TODO Auto-generated method stub
         System.out.println("Terrestre com Velocidade");
+        
     }
     
 
