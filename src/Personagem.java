@@ -5,7 +5,6 @@ public  abstract class Personagem {
     protected int energia;
     public abstract void fazerSom();
 
-   
     public abstract void comer();
 
     public boolean estaCansado() {
@@ -16,8 +15,9 @@ public  abstract class Personagem {
         energia += 10;
         System.out.println("O personagem dormiu e recuperou 10 pontos de energia. Energia atual: " + energia);
     }
-
-   
+    public Personagem(){   
+    }
+    public abstract void atacar();
 }
 
 

@@ -24,4 +24,11 @@ public class Abelhinha extends Personagem {
             System.out.println("Energia atual: " + energia);
         
     }
+
+
+    @Override
+    public void atacar() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'atacar'");
+    }
 }

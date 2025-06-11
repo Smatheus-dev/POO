@@ -5,7 +5,6 @@ public class Kalango extends Personagem {
 
     }
 
-
     @Override
     public void mover() {
         energia -= 3;
@@ -26,5 +25,11 @@ public class Kalango extends Personagem {
         energia += 4;
             System.out.println("Comeu e recuperou energia.");
             System.out.println("Energia atual: " + energia);
+    }
+
+    @Override
+    public void atacar() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'atacar'");
     }
 }

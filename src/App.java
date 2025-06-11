@@ -28,7 +28,7 @@ public class App {
             f.comer();
             f.dormir();
             System.out.println("Energia final da Formiga: " + f.energia + "\n");
-            
+            f.atacar();            
 
         // Testando o Kalango
         
@@ -42,6 +42,7 @@ public class App {
             k.comer();
             k.dormir();
             System.out.println("Energia final do Kalango: " + k.energia + "\n");
+            k.atacar();
 
         // Testando a Abelhinha
        
@@ -54,5 +55,7 @@ public class App {
             a.comer();
             a.dormir();
             System.out.println("Energia final da Abelhinha: " + a.energia);
+            a.atacar();
+
     }
 }

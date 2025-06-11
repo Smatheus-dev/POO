@@ -1,4 +1,4 @@
-public class Formiga extends Personagem {
+public class Formiga extends Personagem implements IArmamento {
 
     public Formiga() {
         this.nome = "Formiga";
@@ -27,4 +27,10 @@ public class Formiga extends Personagem {
             System.out.println("Comeu e recuperou energia.");
             System.out.println("Energia atual: " + energia);
     }
+
+    @Override
+    public void atacar() {
+        System.out.println("Atacar com 4 formas!");
+    }
+
 }
